@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "api_crud.Students.StudentsEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddPathsStudents\u003Eb__0_0",
+    "RelativePath": "students",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "api_crud.Students.AddStudentsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "api_crud.Students.StudentsEndpoint\u002B\u003C\u003Ec",
+    "Method": "\u003CAddPathsStudents\u003Eb__0_1",
+    "RelativePath": "students",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "api_crud.Students.Student",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
